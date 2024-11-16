@@ -29,7 +29,7 @@ execute as @s at @s if score $day huds.calendar matches 31 if score $month huds.
 execute as @s at @s if score $day huds.calendar matches 31 if score $month huds.calendar matches 12 if score $24_hour huds.calendar matches 23 if score $minute huds.calendar matches 58 run function huds:calendar/events/new_years_eve/2
 execute as @s at @s if score $day huds.calendar matches 31 if score $month huds.calendar matches 12 if score $24_hour huds.calendar matches 23 if score $minute huds.calendar matches 59 run function huds:calendar/events/new_years_eve/1
 execute as @s at @s if score $day huds.calendar matches 1 if score $month huds.calendar matches 1 if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run function huds:calendar/events/new_years_eve/launch_sound
-execute as @s at @s if score $day huds.calendar matches 1 if score $month huds.calendar matches 1 if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 2 run function huds:calendar/events/new_years_eve/launch_sound
+execute as @s at @s if score $day huds.calendar matches 1 if score $month huds.calendar matches 1 if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 2 run function huds:calendar/events/new_years_eve/message
 
 ##día de muertos
 execute as @e[type=#minecraft:undead] if score $day huds.calendar matches 2 if score $month huds.calendar matches 11 run function huds:calendar/events/muertos/buff_undead
