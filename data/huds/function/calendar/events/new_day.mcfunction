@@ -1,0 +1,2 @@
+$title @s actionbar [{"bold":false,"color":"white","italic":false,"text":"- "},{"bold":false,"color":"#FFE6B5","italic":false,"text":"$(month_name) $(day), $(year)"},{"bold":false,"color":"white","italic":false,"text":" -"}]
+playsound minecraft:ui.cartography_table.take_result master @s ~ ~ ~ 0.5 1
