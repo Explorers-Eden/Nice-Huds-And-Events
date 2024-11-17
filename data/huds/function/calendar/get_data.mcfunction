@@ -73,10 +73,10 @@ execute if score $month huds.calendar matches 10 run data modify storage eden:ca
 execute if score $month huds.calendar matches 11 run data modify storage eden:calendar global.month_name set value "November"
 execute if score $month huds.calendar matches 12 run data modify storage eden:calendar global.month_name set value "December"
 
-execute if score $month huds.calendar matches 1..2 run data modify storage huds:calendar global.season set value "Winter"
-execute if score $month huds.calendar matches 3..5 run data modify storage huds:calendar global.season set value "Spring"
-execute if score $month huds.calendar matches 6..8 run data modify storage huds:calendar global.season set value "Summer"
-execute if score $month huds.calendar matches 9..11 run data modify storage huds:calendar global.season set value "Autumn"
-execute if score $month huds.calendar matches 12 run data modify storage huds:calendar global.season set value "Winter"
+execute if score $month huds.calendar matches 1..2 run data modify storage eden:calendar global.season set value "Winter"
+execute if score $month huds.calendar matches 3..5 run data modify storage eden:calendar global.season set value "Spring"
+execute if score $month huds.calendar matches 6..8 run data modify storage eden:calendar global.season set value "Summer"
+execute if score $month huds.calendar matches 9..11 run data modify storage eden:calendar global.season set value "Autumn"
+execute if score $month huds.calendar matches 12 run data modify storage eden:calendar global.season set value "Winter"
 
 schedule function huds:calendar/get_data 1s

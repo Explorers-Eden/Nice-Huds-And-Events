@@ -10,7 +10,6 @@ data modify storage eden:temp huds.meridiem set from storage eden:calendar globa
 data modify storage eden:temp huds.day set from storage eden:calendar global.day
 data modify storage eden:temp huds.month_name set from storage eden:calendar global.month_name
 data modify storage eden:temp huds.year set from storage eden:calendar global.year
-data modify storage eden:temp huds.weather set from storage eden:calendar global.weather
 
 execute unless score $time_format eden.technical matches 1.. run function huds:clock/true/12_update with storage eden:temp huds
 execute if score $time_format eden.technical matches 1.. run function huds:clock/true/24_update with storage eden:temp huds
