@@ -79,8 +79,4 @@ execute if score $month huds.calendar matches 6..8 run data modify storage huds:
 execute if score $month huds.calendar matches 9..11 run data modify storage huds:calendar global.season set value "Autumn"
 execute if score $month huds.calendar matches 12 run data modify storage huds:calendar global.season set value "Winter"
 
-execute if predicate eden:weather/clear run data modify storage huds:calendar global.weather set value "Clear"
-execute if predicate eden:weather/rain run data modify storage huds:calendar global.weather set value "Raining"
-execute if predicate eden:weather/thunder run data modify storage huds:calendar global.weather set value "Storming"
-
 schedule function huds:calendar/get_data 1s
