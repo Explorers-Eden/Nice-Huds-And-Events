@@ -1,18 +1,10 @@
 $tellraw @a [\
 {"text":"▊ ","color":"dark_aqua","bold":false,"italic":false},\
-{"selector":"@s","color":"#F5E8C9"},\
+{"selector":"@s","color":"gray"},\
 {"text":" | ","color":"dark_gray","bold":false,"italic":false},\
-{"text":"X","color":"light_purple","bold":false,"italic":false},\
-{"text":"Y","color":"green","bold":false,"italic":false},\
-{"text":"Z","color":"aqua","bold":false,"italic":false},\
-{"text":": ","color":"dark_gray","bold":false,"italic":false},\
-{"text":"$(Pos0)","color":"#F5E8C9","bold":false,"italic":false},\
-{"text":" ","color":"dark_gray","bold":false,"italic":false},\
-{"text":"$(Pos1)","color":"#F5E8C9","bold":false,"italic":false},\
-{"text":" ","color":"dark_gray","bold":false,"italic":false},\
-{"text":"$(Pos2)","color":"#F5E8C9","bold":false,"italic":false},\
+{"text":"XYZ: $(Pos0) $(Pos1) $(Pos2)","color":"gray","bold":false,"italic":false},\
 {"text":" | ","color":"dark_gray","bold":false,"italic":false},\
-{"text":"$(dimension)","color":"#F5E8C9","bold":false,"italic":false}]
+{"text":"$(dimension)","color":"gray","bold":false,"italic":false}]
 
 $execute unless score $time_format eden.technical matches 1.. run \
 tellraw @a [\
