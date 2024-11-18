@@ -18,6 +18,7 @@ execute unless score $year huds.calendar matches 1.. run scoreboard players set 
 
 ##init schedules
 schedule function huds:recovery_compass/run 10t
+schedule function huds:recovery_compass/update/run 10s
 schedule function huds:compass/run 10t
 schedule function huds:clock/run 10t
 schedule function huds:send_position/run 1s

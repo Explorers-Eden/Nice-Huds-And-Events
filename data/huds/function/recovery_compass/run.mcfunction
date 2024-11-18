@@ -1,4 +1,4 @@
-#execute as @a if items entity @s weapon.* minecraft:compass run function huds:compass/true/run
-#execute as @a unless items entity @s weapon.* minecraft:compass run function huds:compass/false/run
+execute as @a if items entity @s weapon.* minecraft:recovery_compass run function huds:recovery_compass/true/run
+execute as @a unless items entity @s weapon.* minecraft:recovery_compass run function huds:recovery_compass/false/run
 
-#schedule function huds:compass/run 10t
+schedule function huds:recovery_compass/run 10t
