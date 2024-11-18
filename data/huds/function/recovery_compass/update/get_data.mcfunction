@@ -9,4 +9,10 @@ execute store result storage eden:temp huds.posz int 1 run data get entity @s La
 
 data modify storage eden:temp huds.dimension set from entity @s LastDeathLocation.dimension
 
+execute if data storage eden:temp huds{dimension: "minecraft:overworld"} run data modify storage eden:temp huds.dimension_name set value "Overworld"
+execute if data storage eden:temp huds{dimension: "minecraft:the_end"} run data modify storage eden:temp huds.dimension_name set value "The End"
+execute if data storage eden:temp huds{dimension: "minecraft:the_nether"} run data modify storage eden:temp huds.dimension_name set value "The Nether"
+execute if data storage eden:temp huds{dimension: "eden:astral_plane"} run data modify storage eden:temp huds.dimension_name set value "Astral Plane"
+execute if data storage eden:temp huds{dimension: "kattersstructures:deep_blue"} run data modify storage eden:temp huds.dimension_name set value "Deep Blue"
+
 function huds:recovery_compass/update/set_data with storage eden:temp huds

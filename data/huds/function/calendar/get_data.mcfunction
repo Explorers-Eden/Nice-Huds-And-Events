@@ -79,4 +79,12 @@ execute if score $month huds.calendar matches 6..8 run data modify storage eden:
 execute if score $month huds.calendar matches 9..11 run data modify storage eden:calendar global.season set value "Autumn"
 execute if score $month huds.calendar matches 12 run data modify storage eden:calendar global.season set value "Winter"
 
+execute if data storage eden:calendar global{weekday: "Sunday"} if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run data modify storage eden:calendar global.weekday set value "Monday"
+execute if data storage eden:calendar global{weekday: "Saturday"} if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run data modify storage eden:calendar global.weekday set value "Sunday"
+execute if data storage eden:calendar global{weekday: "Friday"} if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run data modify storage eden:calendar global.weekday set value "Saturday"
+execute if data storage eden:calendar global{weekday: "Thursday"} if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run data modify storage eden:calendar global.weekday set value "Friday"
+execute if data storage eden:calendar global{weekday: "Wednesday"} if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run data modify storage eden:calendar global.weekday set value "Thursday"
+execute if data storage eden:calendar global{weekday: "Tuesday"} if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run data modify storage eden:calendar global.weekday set value "Wednesday"
+execute if data storage eden:calendar global{weekday: "Monday"} if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run data modify storage eden:calendar global.weekday set value "Tuesday"
+
 schedule function huds:calendar/get_data 1s

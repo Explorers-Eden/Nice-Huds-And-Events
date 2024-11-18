@@ -15,6 +15,7 @@ scoreboard players set $60 eden.technical 60
 execute unless score $day huds.calendar matches 1.. run scoreboard players set $day huds.calendar 1
 execute unless score $month huds.calendar matches 1.. run scoreboard players set $month huds.calendar 1
 execute unless score $year huds.calendar matches 1.. run scoreboard players set $year huds.calendar 1
+execute unless data storage eden:calendar global.weekday run data modify storage eden:calendar global.weekday set value "Monday"
 
 ##init schedules
 schedule function huds:recovery_compass/run 10t
