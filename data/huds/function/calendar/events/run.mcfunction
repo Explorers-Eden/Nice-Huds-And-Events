@@ -34,3 +34,7 @@ execute as @s at @s if score $day huds.calendar matches 1 if score $month huds.c
 ##día de muertos
 execute as @e[type=#minecraft:undead] if score $day huds.calendar matches 2 if score $month huds.calendar matches 11 run function huds:calendar/events/muertos/buff_undead
 execute as @e[type=#minecraft:undead] if score $day huds.calendar matches 2 if score $month huds.calendar matches 11 if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run function huds:calendar/events/muertos/message
+
+##easter
+execute as @a at @s if score $day huds.calendar matches 1 if score $month huds.calendar matches 4 if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run function huds:calendar/events/easter/message
+execute as @e[type=rabbit] at @s if predicate eden:percentages/1 if score $day huds.calendar matches 1..3 if score $month huds.calendar matches 4 run function huds:calendar/events/easter/drop_egg
