@@ -37,3 +37,6 @@ execute as @e[type=#minecraft:undead] if score $day huds.calendar matches 2 if s
 ##easter
 execute as @a at @s if score $day huds.calendar matches 1 if score $month huds.calendar matches 4 if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run function huds:events/easter/message
 execute as @e[type=rabbit] at @s if predicate eden:percentages/1 if score $day huds.calendar matches 1..3 if score $month huds.calendar matches 4 run function huds:events/easter/drop_egg
+
+##friday 13th
+execute if score $day huds.calendar matches 13 if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 if data storage eden:calendar global{weekday: "Friday"} run weather thunder 1d
