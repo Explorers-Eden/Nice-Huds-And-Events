@@ -24,8 +24,7 @@ schedule function huds:compass/run 10t
 schedule function huds:clock/run 10t
 schedule function huds:send_position/run 1s
 schedule function huds:send_position/enable_trigger 60s
-schedule function huds:calendar/get_data 1s
-schedule function huds:calendar/events/run 1s
+schedule function huds:calendar/run 1s
 
 ##remove temp storage
 data remove storage eden:temp huds

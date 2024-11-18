@@ -14,7 +14,7 @@
       }
     },
     "rewards": {
-      "function": "huds:calendar/events/easter/consumed_easter_egg"
+      "function": "huds:events/easter/consumed_easter_egg"
     }
   }
   
