@@ -10,5 +10,6 @@ function huds:calendar/store_dates
 function huds:calendar/get_month_name
 function huds:calendar/get_season
 function huds:calendar/get_weekday
+function huds:calendar/get_daypart
 
 function huds:events/run
