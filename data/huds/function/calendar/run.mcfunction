@@ -9,9 +9,10 @@ function huds:calendar/get_time
 function huds:calendar/store_dates
 function huds:calendar/get_month_name
 function huds:calendar/get_season
-function huds:calendar/get_weekday
+execute if score $raw_daytime eden.technical matches 17991..18009 run function huds:calendar/get_weekday
 function huds:calendar/get_daypart
 
-execute as @a[limit=1,scores={huds.has_slept=1..}] unless score $sleep_triggered eden.technical matches 1 if score $24_hour huds.calendar matches 6 run function huds:calendar/player_slept
+execute as @a[limit=1,scores={huds.has_slept=1..}] unless score $sleep_triggered eden.technical matches 1 run function huds:calendar/player_slept
+execute if score $sleep_triggered eden.technical matches 1 unless score $sleep_msg_scheduled eden.technical matches 1 if score $24_hour huds.calendar matches 6 run function huds:calendar/sleep_msg
 
 function huds:events/run

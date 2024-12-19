@@ -3,3 +3,4 @@ playsound minecraft:ui.cartography_table.take_result master @s ~ ~ ~ 0.5 1
 
 scoreboard players reset * huds.has_slept
 scoreboard players reset $sleep_triggered eden.technical
+scoreboard players reset $sleep_msg_scheduled eden.technical
