@@ -4,6 +4,9 @@ scoreboard objectives add eden.technical dummy
 ##additional scoreboards
 scoreboard objectives add send_position trigger {"text": "Send Position"}
 scoreboard objectives add huds.calendar dummy
+scoreboard objectives add huds.has_slept minecraft.custom:minecraft.sleep_in_bed
+scoreboard players reset * huds.has_slept
+scoreboard players reset $sleep_triggered eden.technical
 
 ##scoreboard math entries
 scoreboard players set $5 eden.technical 5

@@ -32,7 +32,7 @@ execute as @a at @s if score $day huds.calendar matches 1 if score $month huds.c
 
 ##día de muertos
 execute as @e[type=#minecraft:undead] if score $day huds.calendar matches 2 if score $month huds.calendar matches 11 run function huds:events/muertos/buff_undead
-execute as @e[type=#minecraft:undead] if score $day huds.calendar matches 2 if score $month huds.calendar matches 11 if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run function huds:events/muertos/message
+execute as @a at @s if score $day huds.calendar matches 2 if score $month huds.calendar matches 11 if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run function huds:events/muertos/message
 
 ##easter
 execute as @a at @s if score $day huds.calendar matches 1 if score $month huds.calendar matches 4 if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 run function huds:events/easter/message

@@ -12,4 +12,6 @@ function huds:calendar/get_season
 function huds:calendar/get_weekday
 function huds:calendar/get_daypart
 
+execute as @a[limit=1,scores={huds.has_slept=1..}] unless score $sleep_triggered eden.technical matches 1 run function huds:calendar/player_slept
+
 function huds:events/run
