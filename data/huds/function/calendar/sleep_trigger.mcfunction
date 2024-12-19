@@ -3,6 +3,3 @@ execute as @a at @s if score $day huds.calendar matches 24 if score $month huds.
 execute as @a at @s if score $day huds.calendar matches 31 if score $month huds.calendar matches 10 run function huds:events/halloween/message
 execute as @a at @s if score $day huds.calendar matches 2 if score $month huds.calendar matches 11 run function huds:events/muertos/message
 execute as @a at @s if score $day huds.calendar matches 1 if score $month huds.calendar matches 4 run function huds:events/easter/message
-
-scoreboard players reset * huds.has_slept
-scoreboard players reset $sleep_triggered eden.technical
