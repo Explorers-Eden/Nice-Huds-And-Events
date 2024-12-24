@@ -3,6 +3,7 @@ scoreboard objectives add eden.technical dummy
 
 ##additional scoreboards
 scoreboard objectives add send_position trigger {"text": "Send Position"}
+scoreboard objectives add get_date trigger {"text": "Get Date"}
 scoreboard objectives add huds.calendar dummy
 scoreboard objectives add huds.has_slept minecraft.custom:minecraft.sleep_in_bed
 scoreboard players reset * huds.has_slept
@@ -27,6 +28,7 @@ schedule function huds:recovery_compass/update/run 10s
 schedule function huds:compass/run 10t
 schedule function huds:clock/run 10t
 schedule function huds:send_position/run 1s
+schedule function huds:get_date/run 1s
 schedule function huds:send_position/enable_trigger 60s
 schedule function huds:calendar/run 1s
 

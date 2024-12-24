@@ -16,7 +16,7 @@ tellraw @a [\
 $execute if score $time_format eden.technical matches 1.. run \
 tellraw @a [\
 {"text":"▊ ","color":"dark_aqua","bold":false,"italic":false},\
-{"text":"$(weekday): $(12_hour):$(minute) $(meridiem)","color":"gray","bold":false,"italic":false},\
+{"text":"$(weekday): $(24_hour):$(minute)","color":"gray","bold":false,"italic":false},\
 {"text":" | ","color":"dark_gray","bold":false,"italic":false},\
 {"text":"$(month_name) $(day), $(year)","color":"gray","bold":false,"italic":false}]
 
