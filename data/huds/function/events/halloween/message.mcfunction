@@ -1,2 +1,7 @@
 playsound minecraft:entity.witch.celebrate master @s ~ ~ ~ 1 1
-title @s title {"bold":false,"color":"#FFB92E","italic":false,"text":"Happy Halloween"}
+
+tellraw @a [\
+{"text":"▊ ","color":"gold","bold":false,"italic":false},\
+{"text":"Happy Halloween","color":"#FF9317","bold":false,"italic":false},\
+{"text":": Some mobs wear spooky carved pumpkins today.","color":"gray","bold":false,"italic":false}\
+]

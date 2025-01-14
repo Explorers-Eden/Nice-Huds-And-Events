@@ -1,3 +1,7 @@
 playsound minecraft:entity.firework_rocket.twinkle_far master @s ~ ~ ~ 1 1
-title @s title {"bold":false,"color":"#33CC47","italic":false,"text":"Día De Muertos"}
-title @s subtitle {"bold":false,"color":"#FFFFFF","italic":false,"text":"- Tonight, the departed walk among us -"}
+
+tellraw @a [\
+{"text":"▊ ","color":"gold","bold":false,"italic":false},\
+{"text":"Dia De Muertos","color":"dark_red","bold":false,"italic":false},\
+{"text":": Tonight, the departed are stronger than usual.","color":"gray","bold":false,"italic":false}\
+]

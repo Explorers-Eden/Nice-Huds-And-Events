@@ -9,6 +9,10 @@ scoreboard objectives add huds.has_slept minecraft.custom:minecraft.sleep_in_bed
 scoreboard players reset * huds.has_slept
 scoreboard players reset $sleep_triggered eden.technical
 scoreboard players reset $sleep_msg_scheduled eden.technical
+scoreboard objectives add huds.days_lived.counter dummy
+scoreboard objectives add huds.years_lived.counter dummy
+scoreboard objectives setdisplay list huds.days_lived.counter
+scoreboard objectives add huds.has_died_today deathCount
 
 ##scoreboard math entries
 scoreboard players set $5 eden.technical 5
@@ -34,3 +38,4 @@ schedule function huds:calendar/run 1s
 
 ##remove temp storage
 data remove storage eden:temp huds
+scoreboard players set $trigger_events eden.technical 0
