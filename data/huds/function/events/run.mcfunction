@@ -37,3 +37,6 @@ execute as @e[type=rabbit] at @s if predicate eden:percentages/1 if score $day h
 
 ##friday 13th
 execute if score $day huds.calendar matches 13 if score $24_hour huds.calendar matches 0 if score $minute huds.calendar matches 0 if data storage eden:calendar global{weekday: "Friday"} run weather thunder 1d
+
+##disable Trap Skeleton Horses in Autumn
+execute as @e[type=minecraft:skeleton_horse,tag=!trap_disabled] if data storage eden:calendar global{season: "Autumn"} run function huds:events/disable_trap_horse_in_autumn
