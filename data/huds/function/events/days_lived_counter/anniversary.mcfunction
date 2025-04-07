@@ -23,17 +23,6 @@ execute as @s[scores={huds.days_lived.counter=2920}] at @s run loot spawn ~ ~ ~ 
 execute as @s[scores={huds.days_lived.counter=3285}] at @s run loot spawn ~ ~ ~ loot eden:gameplay/anniversary_cake
 execute as @s[scores={huds.days_lived.counter=3650}] at @s run loot spawn ~ ~ ~ loot eden:gameplay/anniversary_cake
 
-execute as @s[scores={huds.days_lived.counter=365}] at @s run loot spawn ~ ~ ~ loot eden:item/pool/key_golem
-execute as @s[scores={huds.days_lived.counter=730}] at @s run loot spawn ~ ~ ~ loot eden:item/pool/key_golem
-execute as @s[scores={huds.days_lived.counter=1095}] at @s run loot spawn ~ ~ ~ loot eden:item/pool/key_golem
-execute as @s[scores={huds.days_lived.counter=1460}] at @s run loot spawn ~ ~ ~ loot eden:item/pool/key_golem
-execute as @s[scores={huds.days_lived.counter=1825}] at @s run loot spawn ~ ~ ~ loot eden:item/pool/key_golem
-execute as @s[scores={huds.days_lived.counter=2190}] at @s run loot spawn ~ ~ ~ loot eden:item/pool/key_golem
-execute as @s[scores={huds.days_lived.counter=2555}] at @s run loot spawn ~ ~ ~ loot eden:item/pool/key_golem
-execute as @s[scores={huds.days_lived.counter=2920}] at @s run loot spawn ~ ~ ~ loot eden:item/pool/key_golem
-execute as @s[scores={huds.days_lived.counter=3285}] at @s run loot spawn ~ ~ ~ loot eden:item/pool/key_golem
-execute as @s[scores={huds.days_lived.counter=3650}] at @s run loot spawn ~ ~ ~ loot eden:item/pool/key_golem
-
 execute as @s[tag=dunesworn] run team join eden.dunesworn @s
 execute as @s[tag=endling] run team join eden.endling @s
 execute as @s[tag=frostborne] run team join eden.frostborne @s
