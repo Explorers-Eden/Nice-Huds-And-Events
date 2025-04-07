@@ -1,7 +1,5 @@
-$title @s actionbar [{"bold":false,"color":"white","italic":false,"text":"- "},{"bold":false,"color":"#FFE6B5","italic":false,"text":"$(weekday)"},{"bold":false,"color":"gray","italic":false,"text":": "},{"bold":false,"color":"#FFE6B5","italic":false,"text":"$(month_name) $(day), $(year)"},{"bold":false,"color":"white","italic":false,"text":" -"}]
+$title @s actionbar [{"bold":false,"color":"dark_gray","italic":false,"text":"- "},{"bold":false,"color":"gray","italic":false,"text":"$(weekday)"},{"bold":false,"color":"gray","italic":false,"text":": "},{"bold":false,"color":"gray","italic":false,"text":"$(month_name) $(day), $(year)"},{"bold":false,"color":"dark_gray","italic":false,"text":" -"}]
 playsound minecraft:ui.cartography_table.take_result master @s ~ ~ ~ 0.5 1
-
-function huds:events/weather/run
 
 execute if score $day huds.calendar matches 24 if score $month huds.calendar matches 12 run function huds:events/christmas
 execute if score $day huds.calendar matches 31 if score $month huds.calendar matches 10 run function huds:events/halloween/message
