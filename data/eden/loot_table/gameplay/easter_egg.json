@@ -11,7 +11,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "rare",
-                  "minecraft:custom_name": "{\"fallback\":\"Easter Egg\",\"translate\":\"miniblock.eden.easter_egg\",\"italic\":false}",
+                  "minecraft:custom_name": {"fallback":"Easter Egg","translate":"miniblock.eden.easter_egg","italic":false},
                   "minecraft:profile": {
                     "properties": [
                       {
@@ -42,7 +42,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "rare",
-                  "minecraft:custom_name": "{\"fallback\":\"Easter Egg\",\"translate\":\"miniblock.eden.easter_egg\",\"italic\":false}",
+                  "minecraft:custom_name": {"fallback":"Easter Egg","translate":"miniblock.eden.easter_egg","italic":false},
                   "minecraft:profile": {
                     "properties": [
                       {
@@ -73,7 +73,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "rare",
-                  "minecraft:custom_name": "{\"fallback\":\"Easter Egg\",\"translate\":\"miniblock.eden.easter_egg\",\"italic\":false}",
+                  "minecraft:custom_name": {"fallback":"Easter Egg","translate":"miniblock.eden.easter_egg","italic":false},
                   "minecraft:profile": {
                     "properties": [
                       {
@@ -94,7 +94,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "rare",
-                  "minecraft:custom_name": "{\"fallback\":\"Easter Egg\",\"translate\":\"miniblock.eden.easter_egg\",\"italic\":false}",
+                  "minecraft:custom_name": {"fallback":"Easter Egg","translate":"miniblock.eden.easter_egg","italic":false},
                   "minecraft:profile": {
                     "properties": [
                       {
@@ -125,7 +125,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "rare",
-                  "minecraft:custom_name": "{\"fallback\":\"Easter Egg\",\"translate\":\"miniblock.eden.easter_egg\",\"italic\":false}",
+                  "minecraft:custom_name": {"fallback":"Easter Egg","translate":"miniblock.eden.easter_egg","italic":false},
                   "minecraft:profile": {
                     "properties": [
                       {
@@ -156,7 +156,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "rare",
-                  "minecraft:custom_name": "{\"fallback\":\"Easter Egg\",\"translate\":\"miniblock.eden.easter_egg\",\"italic\":false}",
+                  "minecraft:custom_name": {"fallback":"Easter Egg","translate":"miniblock.eden.easter_egg","italic":false},
                   "minecraft:profile": {
                     "properties": [
                       {
@@ -187,7 +187,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "rare",
-                  "minecraft:custom_name": "{\"fallback\":\"Easter Egg\",\"translate\":\"miniblock.eden.easter_egg\",\"italic\":false}",
+                  "minecraft:custom_name": {"fallback":"Easter Egg","translate":"miniblock.eden.easter_egg","italic":false},
                   "minecraft:profile": {
                     "properties": [
                       {
@@ -218,7 +218,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "rare",
-                  "minecraft:custom_name": "{\"fallback\":\"Easter Egg\",\"translate\":\"miniblock.eden.easter_egg\",\"italic\":false}",
+                  "minecraft:custom_name": {"fallback":"Easter Egg","translate":"miniblock.eden.easter_egg","italic":false},
                   "minecraft:profile": {
                     "properties": [
                       {
@@ -249,7 +249,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "rare",
-                  "minecraft:custom_name": "{\"fallback\":\"Easter Egg\",\"translate\":\"miniblock.eden.easter_egg\",\"italic\":false}",
+                  "minecraft:custom_name": {"fallback":"Easter Egg","translate":"miniblock.eden.easter_egg","italic":false},
                   "minecraft:profile": {
                     "properties": [
                       {
@@ -280,7 +280,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "rare",
-                  "minecraft:custom_name": "{\"fallback\":\"Easter Egg\",\"translate\":\"miniblock.eden.easter_egg\",\"italic\":false}",
+                  "minecraft:custom_name": {"fallback":"Easter Egg","translate":"miniblock.eden.easter_egg","italic":false},
                   "minecraft:profile": {
                     "properties": [
                       {
@@ -311,7 +311,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "rare",
-                  "minecraft:custom_name": "{\"fallback\":\"Easter Egg\",\"translate\":\"miniblock.eden.easter_egg\",\"italic\":false}",
+                  "minecraft:custom_name": {"fallback":"Easter Egg","translate":"miniblock.eden.easter_egg","italic":false},
                   "minecraft:profile": {
                     "properties": [
                       {
@@ -342,7 +342,7 @@
                 "function": "minecraft:set_components",
                 "components": {
                   "minecraft:rarity": "rare",
-                  "minecraft:custom_name": "{\"fallback\":\"Easter Egg\",\"translate\":\"miniblock.eden.easter_egg\",\"italic\":false}",
+                  "minecraft:custom_name": {"fallback":"Easter Egg","translate":"miniblock.eden.easter_egg","italic":false},
                   "minecraft:profile": {
                     "properties": [
                       {
